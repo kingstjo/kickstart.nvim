@@ -23,3 +23,8 @@ vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
 vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
+-- Amazon Q CLI Integration
+vim.keymap.set('n', '<leader>qa', ':terminal q chat<CR>', { desc = 'Open Amazon Q CLI' })
+vim.keymap.set('n', '<leader>qs', ':split | terminal q chat<CR>', { desc = 'Amazon Q CLI in horizontal split' })
+vim.keymap.set('n', '<leader>qv', ':vsplit | terminal q chat<CR>', { desc = 'Amazon Q CLI in vertical split' })
+vim.keymap.set('n', '<leader>qt', ':tabnew | terminal q chat<CR>', { desc = 'Amazon Q CLI in new tab' })

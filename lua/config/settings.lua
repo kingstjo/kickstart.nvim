@@ -1,8 +1,9 @@
-vim.g.mapleader = ":h"
+vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 vim.opt.nu = true
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
+vim.opt.numberwidth = 4
 vim.opt.showmode = false
 
 vim.opt.expandtab = true
